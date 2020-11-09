@@ -22,6 +22,10 @@
                 <behavior>Edit</behavior>
                 <field>Email_Address__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Send_Email_On__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
