@@ -32,6 +32,6 @@
     </values>
     <values>
         <field>User_Name__c</field>
-        <value xsi:type="xsd:string">sf+phiea@arbolainc.com.dev1</value>
+        <value xsi:type="xsd:string"></value>
     </values>
 </CustomMetadata>
