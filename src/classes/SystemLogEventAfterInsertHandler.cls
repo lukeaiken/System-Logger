@@ -1,3 +1,5 @@
+// Sample Trigger Handler
+
 public without sharing class SystemLogEventAfterInsertHandler implements TriggerDispatcher.ITriggerEntry {
     public static AppConfig__c systemLoggerConfig {
         get {
