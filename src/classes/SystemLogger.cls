@@ -7,7 +7,6 @@ global class SystemLogger {
     //      @relatedObjectId     String - Id of related Object for which the log is generated
 
     global static void log (LoggingLevel logLevel, Exception ex) {
-        stackTraceString  = ex.getStackTraceString();
         SystemLogger.log(logLevel, ex, null);
     }
 
