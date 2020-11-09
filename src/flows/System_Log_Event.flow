@@ -80,7 +80,7 @@
             <targetReference>Publish_System_Log_Event</targetReference>
         </connector>
     </assignments>
-    <description>v5 - with logged in user id and user name details and timestamp</description>
+    <description></description>
     <formulas>
         <name>LoggedInUserId</name>
         <dataType>String</dataType>
