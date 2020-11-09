@@ -7,6 +7,7 @@ global class SystemLogger {
     //      @relatedObjectId     String - Id of related Object for which the log is generated
 
     global static void log (LoggingLevel logLevel, Exception ex) {
+        stackTraceString  = ex.getStackTraceString();
         SystemLogger.log(logLevel, ex, null);
     }
 
@@ -16,7 +17,6 @@ global class SystemLogger {
     }
 
     global static void log (LoggingLevel logLevel, String msg) {
-        if (stackTraceString == null) stackTraceString  = new DmlException().getStackTraceString(); // Fast way to get trace string
         SystemLogger.log(logLevel, msg, null);
     }
 
