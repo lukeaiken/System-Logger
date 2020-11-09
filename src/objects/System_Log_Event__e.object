@@ -101,10 +101,9 @@
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>
         <label>Message</label>
-        <length>255</length>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
+        <length>131072</length>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
     </fields>
     <fields>
         <fullName>Related_Object_Id__c</fullName>
@@ -171,9 +170,9 @@
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>
         <label>Stack Trace</label>
-        <length>32768</length>
+        <length>131072</length>
         <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
+        <visibleLines>5</visibleLines>
     </fields>
     <label>System Log Event</label>
     <pluralLabel>System Log Events</pluralLabel>
