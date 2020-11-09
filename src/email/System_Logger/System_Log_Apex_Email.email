@@ -1,0 +1,15 @@
+A new system log record was generated:
+
+Logged From: {!System_Log__c.Logged_From__c}
+User: {!System_Log__c.Running_UserName__c}
+Time: {!System_Log__c.CreatedDate}
+Level: {!System_Log__c.Log_Level__c}
+
+Related Object: {!System_Log__c.Related_Object_Id__c}
+Apex Class: {!System_Log__c.Apex_Class__c}
+Apex Method: {!System_Log__c.Apex_Method__c}
+Line #: {!System_Log__c.Line_Number__c}
+Message: {!System_Log__c.Message__c}
+
+Stack Trace: 
+{!System_Log__c.Stack_Trace__c}

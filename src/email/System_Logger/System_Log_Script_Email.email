@@ -1,0 +1,13 @@
+A new system log record was generated:
+
+Logged From: {!System_Log__c.Logged_From__c}
+User: {!System_Log__c.Running_UserName__c}
+Time: {!System_Log__c.CreatedDate}
+Level: {!System_Log__c.Log_Level__c}
+
+Related Object: {!System_Log__c.Related_Object_Id__c}
+Script Name: {!System_Log__c.Script_Name__c}
+Message: {!System_Log__c.Message__c}
+
+Stack Trace: 
+{!System_Log__c.Stack_Trace__c}
